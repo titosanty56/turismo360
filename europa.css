@@ -80,12 +80,11 @@ ul.navigation li:hover {
     grid-template-columns: 50% 50%;
     justify-items: center;
     margin: 0;
-    grid-row-gap: 20px;
 }
 
 img{
-    width: 290px;
-    height: 330px;
+    width: 96.5%;
+    height: 70%;
     border-radius: 8px;
     z-index: 100;
 }
@@ -99,9 +98,11 @@ img{
 .contenedor-grid p{
     background-color: #070aaa;
     color: white;
-    height: 80px;
+    height: 15%;
+    width: 96.8%;
     position: relative;
     bottom: 30px;
+    left: 5px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     display: flex;
@@ -134,8 +135,11 @@ img{
     
     .logo-pagina img{
         position: relative;
-        top: 4px;
-        z-index: 100;
+        top: 15px;
+        left: 8px;
+        width: 170px;
+        height: 100px;
+        z-index: 1000;
     }
 
     header{
@@ -165,8 +169,16 @@ img{
         grid-template-columns: 25% 25% 25% 25%;
     }
 
+    .contenedor-grid p{
+        height: 90px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
+    }
+
+
     img{
         width: 360px;
-        height: 400px;
+        height: 390px;
     }
 }

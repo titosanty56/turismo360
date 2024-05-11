@@ -84,8 +84,8 @@ ul.navigation li:hover {
 }
 
 img{
-    width: 290px;
-    height: 330px;
+    width: 96.5%;
+    height: 70%;
     border-radius: 8px;
     z-index: 100;
 }
@@ -99,9 +99,11 @@ img{
 .contenedor-grid p{
     background-color: #070aaa;
     color: white;
-    height: 80px;
+    height: 15%;
+    width: 96.8%;
     position: relative;
     bottom: 30px;
+    left: 4px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     display: flex;
@@ -124,6 +126,8 @@ img{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        position: relative;
+        bottom: 11px;
     }
     
     body{
@@ -135,8 +139,8 @@ img{
         position: relative;
         top: 15px;
         left: 8px;
-        width: 170px;
-        height: 100px;
+        width: 180px;
+        height: 110px;
         z-index: 1000;
     }
 
@@ -156,7 +160,7 @@ img{
 
     ul.navigation li a{
         color: #070aaa;
-        font-size: 25px;
+        font-size: 26px;
     }
 
     ul.navigation li:hover {
@@ -165,6 +169,13 @@ img{
 
     .contenedor-grid{
         grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .contenedor-grid p{
+        height: 90px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
     }
 
     img{
